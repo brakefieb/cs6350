@@ -16,6 +16,6 @@
 dbutils.fs.mkdirs("/FileStore/flickr8k_data")
 dbutils.fs.mkdirs("/FileStore/flickr8k_data/images")
 
-dbutils.fs.cp('file:/databricks/driver/cs6350/flickr8k/captions.txt', 'dbfs:/FileStore/flickr8k_data/')
-dbutils.fs.cp('file:/databricks/driver/cs6350/flickr8k/images', 'dbfs:/FileStore/flickr8k_data/images/', recurse=True)
+dbutils.fs.cp('file:/databricks/driver/CNN-LSTM/flickr8k/captions.txt', 'dbfs:/FileStore/flickr8k_data/')
+dbutils.fs.cp('file:/databricks/driver/CNN-LSTM/flickr8k/images', 'dbfs:/FileStore/flickr8k_data/images/', recurse=True)
 ```
