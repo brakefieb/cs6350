@@ -8,8 +8,8 @@
 ### Upload Flickr8k Dataset
 
 ```bash
-!git clone [https://github.com/brakefieb/cs6350.git](https://github.com/brakefieb/cs6350.git)
-%sh ls /databricks/driver/cs6350/flickr8k
+!git clone https://github.com/brakefieb/CNN-LSTM.git
+%sh ls /databricks/driver/CNN-LSTM/flickr8k
 ```
 
 ```python
